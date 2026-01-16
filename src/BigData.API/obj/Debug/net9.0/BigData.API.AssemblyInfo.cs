@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BigData.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2ef1b7355d1d0060566e8e2c225de10c46a2ac5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ca6510247bab901f2b4fecca2baaace0d89356a")]
 [assembly: System.Reflection.AssemblyProductAttribute("BigData.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BigData.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
