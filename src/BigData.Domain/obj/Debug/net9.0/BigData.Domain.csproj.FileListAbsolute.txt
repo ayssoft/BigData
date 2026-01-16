@@ -1,0 +1,13 @@
+/home/runner/work/BigData/BigData/src/BigData.Domain/bin/Debug/net9.0/BigData.Domain.deps.json
+/home/runner/work/BigData/BigData/src/BigData.Domain/bin/Debug/net9.0/BigData.Domain.dll
+/home/runner/work/BigData/BigData/src/BigData.Domain/bin/Debug/net9.0/BigData.Domain.pdb
+/home/runner/work/BigData/BigData/src/BigData.Domain/obj/Debug/net9.0/BigData.Domain.csproj.AssemblyReference.cache
+/home/runner/work/BigData/BigData/src/BigData.Domain/obj/Debug/net9.0/BigData.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/work/BigData/BigData/src/BigData.Domain/obj/Debug/net9.0/BigData.Domain.AssemblyInfoInputs.cache
+/home/runner/work/BigData/BigData/src/BigData.Domain/obj/Debug/net9.0/BigData.Domain.AssemblyInfo.cs
+/home/runner/work/BigData/BigData/src/BigData.Domain/obj/Debug/net9.0/BigData.Domain.csproj.CoreCompileInputs.cache
+/home/runner/work/BigData/BigData/src/BigData.Domain/obj/Debug/net9.0/BigData.Domain.sourcelink.json
+/home/runner/work/BigData/BigData/src/BigData.Domain/obj/Debug/net9.0/BigData.Domain.dll
+/home/runner/work/BigData/BigData/src/BigData.Domain/obj/Debug/net9.0/refint/BigData.Domain.dll
+/home/runner/work/BigData/BigData/src/BigData.Domain/obj/Debug/net9.0/BigData.Domain.pdb
+/home/runner/work/BigData/BigData/src/BigData.Domain/obj/Debug/net9.0/ref/BigData.Domain.dll

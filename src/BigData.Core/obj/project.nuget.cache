@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "G3CqAKV00x4=",
+  "success": true,
+  "projectFilePath": "/home/runner/work/BigData/BigData/src/BigData.Core/BigData.Core.csproj",
+  "expectedPackageFiles": [
+    "/home/runner/.nuget/packages/microsoft.extensions.dependencyinjection/10.0.2/microsoft.extensions.dependencyinjection.10.0.2.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.2/microsoft.extensions.dependencyinjection.abstractions.10.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
