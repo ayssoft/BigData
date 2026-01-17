@@ -1,0 +1,13 @@
+/home/runner/work/BigData/BigData/src/BigData.Core/bin/Debug/net9.0/BigData.Core.deps.json
+/home/runner/work/BigData/BigData/src/BigData.Core/bin/Debug/net9.0/BigData.Core.dll
+/home/runner/work/BigData/BigData/src/BigData.Core/bin/Debug/net9.0/BigData.Core.pdb
+/home/runner/work/BigData/BigData/src/BigData.Core/obj/Debug/net9.0/BigData.Core.csproj.AssemblyReference.cache
+/home/runner/work/BigData/BigData/src/BigData.Core/obj/Debug/net9.0/BigData.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/work/BigData/BigData/src/BigData.Core/obj/Debug/net9.0/BigData.Core.AssemblyInfoInputs.cache
+/home/runner/work/BigData/BigData/src/BigData.Core/obj/Debug/net9.0/BigData.Core.AssemblyInfo.cs
+/home/runner/work/BigData/BigData/src/BigData.Core/obj/Debug/net9.0/BigData.Core.csproj.CoreCompileInputs.cache
+/home/runner/work/BigData/BigData/src/BigData.Core/obj/Debug/net9.0/BigData.Core.sourcelink.json
+/home/runner/work/BigData/BigData/src/BigData.Core/obj/Debug/net9.0/BigData.Core.dll
+/home/runner/work/BigData/BigData/src/BigData.Core/obj/Debug/net9.0/refint/BigData.Core.dll
+/home/runner/work/BigData/BigData/src/BigData.Core/obj/Debug/net9.0/BigData.Core.pdb
+/home/runner/work/BigData/BigData/src/BigData.Core/obj/Debug/net9.0/ref/BigData.Core.dll

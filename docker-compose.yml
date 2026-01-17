@@ -1,0 +1,79 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: bigdata-mongodb
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password123
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - bigdata-network
+
+  cassandra:
+    image: cassandra:latest
+    container_name: bigdata-cassandra
+    restart: always
+    ports:
+      - "9042:9042"
+    environment:
+      CASSANDRA_CLUSTER_NAME: BigDataCluster
+      CASSANDRA_DC: datacenter1
+      CASSANDRA_ENDPOINT_SNITCH: GossipingPropertyFileSnitch
+    volumes:
+      - cassandra_data:/var/lib/cassandra
+    networks:
+      - bigdata-network
+    healthcheck:
+      test: ["CMD", "cqlsh", "-e", "describe keyspaces"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  seq:
+    image: datalust/seq:latest
+    container_name: bigdata-seq
+    restart: always
+    ports:
+      - "5341:80"
+    environment:
+      ACCEPT_EULA: Y
+    volumes:
+      - seq_data:/data
+    networks:
+      - bigdata-network
+
+  api:
+    build:
+      context: .
+      dockerfile: src/BigData.API/Dockerfile
+    container_name: bigdata-api
+    restart: always
+    ports:
+      - "5000:8080"
+      - "5001:8081"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DatabaseSettings__MongoDB__ConnectionString: mongodb://admin:password123@mongodb:27017
+      DatabaseSettings__Cassandra__ContactPoints: cassandra
+      Serilog__WriteTo__1__Args__serverUrl: http://seq
+    depends_on:
+      - mongodb
+      - cassandra
+      - seq
+    networks:
+      - bigdata-network
+
+volumes:
+  mongodb_data:
+  cassandra_data:
+  seq_data:
+
+networks:
+  bigdata-network:
+    driver: bridge
